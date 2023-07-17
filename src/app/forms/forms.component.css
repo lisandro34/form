@@ -1,0 +1,22 @@
+/* .form-group input[type=checkbox] {
+    display: none;
+}
+ .Check {
+    cursor: pointer;
+
+    background: transparent;
+    border: 2px solid #e5250c;
+    border-radius: 50px;
+ 
+    margin-left: 18px;
+    margin-top: 5px;
+    height: 13px;
+    width: 13px;
+
+
+}
+
+ input[type="checkbox"]:checked + .Check {
+    background: #e5250c;
+   
+} */

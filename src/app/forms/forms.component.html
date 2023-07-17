@@ -1,0 +1,21 @@
+<!-- <div class=" card bg-light" style="width:40rem; height: 30vw;">
+    <div class="card-body"></div>
+    <h5 class="card-title">Seleccioné que tipo de servicio querés brindar:</h5>
+
+    
+ </div> -->
+<div class="card container">
+    <div class="card-body">
+        <h4 class="card-subtitle mb-2 text-muted mb-5">Seleccioné que tipo de servicio querés brindar:</h4>
+
+        <form class="form-group">
+            <div class="row" *ngFor="let contenido of Datos">
+                <label for="" class="col-sm-10 border border-dark">{{contenido.name}}</label>
+                <div>
+                    <input class="form-check-input ml-3" type="checkbox" id="gridCheck" value="option" name="1" (change)="getDatosId($event, contenido.id)">
+                    <label for="gridCheck" class="Check"></label>
+                </div>
+            </div>
+        
+        </form>
+    </div>
